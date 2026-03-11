@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PruebaBi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8e755ebb-5f74-9ed4-423a-d960836c86db"
+  }
+}
