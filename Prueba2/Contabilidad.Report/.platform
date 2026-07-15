@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Contabilidad"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "adc0788c-bb38-be5e-4bf0-ecb9f0c0cb93"
+  }
+}

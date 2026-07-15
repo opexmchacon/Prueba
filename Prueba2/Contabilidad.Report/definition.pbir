@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/2.0.0/schema.json",
+  "version": "4.0",
+  "datasetReference": {
+    "byConnection": {
+      "connectionString": "Data Source=powerbi://api.powerbi.com/v1.0/myorg/Opexd365;initial catalog=Contabilidad;integrated security=ClaimsToken;semanticmodelid=e790eb9b-cba9-4172-bc16-43e2e3ac96d6"
+    }
+  }
+}

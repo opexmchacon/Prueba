@@ -1,0 +1,46 @@
+table Tabla
+	lineageTag: b8650716-3e4f-453c-8c07-1cc383f3144a
+
+	measure Medida =
+			
+			"<div style=
+			    padding:20px;
+			    background:#f5f5f5;
+			    border:1px solid #ccc;
+			    border-radius:8px;
+			    font-family:Arial,sans-serif;
+			>
+			    <h2 style=color:#0078D4;>Prueba HTML Content</h2>
+			    <p>Este es un contenido HTML renderizado dentro de Power BI.</p>
+			    <button style=
+			        background:#0078D4;
+			        color:white;
+			        border:none;
+			        padding:10px 20px;
+			        border-radius:4px;
+			    >
+			        Botón de prueba
+			    </button>
+			</div>"
+		lineageTag: 7852fe1e-2917-4b9a-b706-26c6ff7f8d1c
+
+	column 'Columna 1'
+		dataType: string
+		lineageTag: 29ab97c2-926b-4dc3-b7e6-2493a1ef01db
+		summarizeBy: none
+		sourceColumn: Columna 1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Tabla = m
+		mode: import
+		source =
+				let
+				  Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WKi9Xio0FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Columna 1" = _t])
+				in
+				  Origen
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
