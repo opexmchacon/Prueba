@@ -1,0 +1,46 @@
+{
+  "config": "{\"version\":\"5.73\",\"themeCollection\":{\"baseTheme\":{\"name\":\"Fluent2-CY26SU05\",\"version\":{\"visual\":\"2.9.0\",\"report\":\"3.3.0\",\"page\":\"2.3.1\"},\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "htmlContent443BE3AD55E043BF878BED274D3A6865"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Fluent2-CY26SU05",
+            "path": "BaseThemes/Fluent2-CY26SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 1080.00,
+      "name": "cff6c80d2ca1028b522a",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"8f52f0b1bad1500e1093\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.64039408866995,\"y\":0,\"z\":0,\"width\":674.3349753694581,\"height\":287.29064039408865,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"htmlContent443BE3AD55E043BF878BED274D3A6865\",\"projections\":{\"content\":[{\"queryRef\":\"Tabla.Medida\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Tabla\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Medida\"},\"Name\":\"Tabla.Medida\",\"NativeReferenceName\":\"Medida\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 287.29,
+          "queryBinary": "H4sIAAAAAAAEAE1QS0/DMAz+Lz5XaINbj0DhgIrGVu2CegipGUFtEjkJ2lTlv2On5XGK/dnfI57hzk2TskOA+nWGA3IdjX5JSJd7FdXhQ3lcV6CeoQykOCIF4yzU1xU8kJsK/VlNCDVEqKBhmcib0Km3UTHQXTzPNrmv2GVEHQujRRUSoSg2Z08YFlFO4hJp3OP7X1OUc65gR84jFfUWBzMoYHD1LnZXKyxoNF8ig4RW47r0w+qZd2vsYOxJbHZkJrV875Fc8gwvZ2HDT07M0aTf9IUo59njkAouHAGObkxicVP9V+uc5ydL9t+7bblpzqiT0FuMZHR4MnLlbWb9b6FXoIyZAQAA",
+          "width": 674.33,
+          "x": 10.64,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1920.00
+    }
+  ]
+}
